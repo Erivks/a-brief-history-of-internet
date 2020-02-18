@@ -1,0 +1,39 @@
+{
+    "name": "erivks/acessos-sites",
+    "description": "Site para vizualização do número de acessos a sites através dos anos",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erick O. dos Santos",
+            "email": "erick_santos00@outlook.com",
+            "role": "Developer",
+            "homepage": "https://github.com/Erivks"
+        }, 
+        {
+            "name": "Fernando Neves",
+            "email": "nandonevess@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/nandonevess"
+        },
+        {
+            "name": "Jadson Moreira",
+            "email": "jadson23.01@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "^1.0"
+    }
+}
