@@ -13,9 +13,9 @@ abstract class ConnectionToDB
         if (self::$connectionData == null){
             try {
                 self::$connectionData = new PDO(
-                    'mysql: host=localhost; dbname=laravel; charset=utf8', 
-                    'root',
-                    ''
+                    'mysql: host='. HOST_DATABASE .'; dbname='. DB_NAME .'; charset=utf8', 
+                    USER_DATABASE,
+                    PASSWORD_DATABASE
                 );
             } catch (Exception $error) {
                 throw new Exception("Não foi possível se conectar ao banco");
