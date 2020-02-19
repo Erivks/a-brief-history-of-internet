@@ -2,7 +2,10 @@
 
 #Defining constants
 define('URL_BASE', 'localhost:8000');
-define('HOST_DATABASE', 'localhost');
-define('DB_NAME', 'laravel');
-define('USER_DATABASE', 'root');
-define('PASSWORD_DATABASE', '');
+define('DATABASE_DATA', [
+    'HOST' => 'localhost',
+    'PORT' => '3306',
+    'DB_NAME' => 'laravel',
+    'USER' => 'root',
+    'PASSWORD' => ''
+]);
