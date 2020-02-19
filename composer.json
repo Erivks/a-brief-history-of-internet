@@ -31,7 +31,8 @@
             "App\\": "app/"
         },
         "files": [
-            "app/Config.php"
+            "app/Config.php",
+            "app/routes/web.php"
         ]
     },
     "require": {
