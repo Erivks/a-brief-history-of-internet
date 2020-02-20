@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use League\Plates\Engine;
+use App\Models\Access;
 
 /*
 * Class for management access of pages
@@ -45,6 +46,17 @@ class WebController
     {
         echo $this->template->render('sobre');
     }
+
+    /*
+    * Method for return group view
+    *
+    * @return void
+    */
+    public function group()
+    {
+        echo $this->template->render('group');
+    }
+
     /*
     * Method for return an access error code at page
     *
