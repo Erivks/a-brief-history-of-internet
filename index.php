@@ -1,5 +1,3 @@
 <?php 
 
-require __DIR__.'/vendor/autoload.php';
-
-echo URL_BASE;
+require_once __DIR__.'/vendor/autoload.php';
