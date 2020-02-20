@@ -10,6 +10,7 @@ $router = new Router(URL_BASE);
 $router->group(null);
 $router->namespace("App\Controllers");
 $router->get("/", "WebController:index");
+$router->get("/sobre", "WebController:about");
 
 $router->group("error");
 $router->get("/{errcode}", "WebController:showError");

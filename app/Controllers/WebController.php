@@ -25,18 +25,28 @@ class WebController
     }
 
     /*
-    * Methods for return the homepage website
+    * Method for return the homepage website
     *
     * @param Array $data
     * @return void
     */
     public function index($data)
     {
-        echo $this->template->render('_layout');
+        echo $this->template->render('index');
     }
 
     /*
-    * Methods for return an access error code at page
+    * Method for return about view
+    *
+    * @param Array $data
+    * @return void
+    */
+    public function about($data)
+    {
+        echo $this->template->render('sobre');
+    }
+    /*
+    * Method for return an access error code at page
     *
     * @param Array $data
     * @return void
