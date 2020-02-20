@@ -2,6 +2,8 @@
 
 namespace App\Controllers;
 
+use League\Plates\Engine;
+
 /*
 * Class for management access of pages
 *
@@ -10,6 +12,18 @@ namespace App\Controllers;
 */
 class WebController 
 {
+    public $template;
+
+    /*
+    * Method construct for create a template and set template attribute
+    *
+    * @return void
+    */
+    public function __construct()
+    {
+        $this->template = new Engine('app/resources/views');
+    }
+
     /*
     * Methods for return the homepage website
     *
@@ -18,7 +32,7 @@ class WebController
     */
     public function index($data)
     {
-        var_dump($data);
+        echo $this->template->render('_layout');
     }
 
     /*
