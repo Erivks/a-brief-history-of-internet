@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <title>Projeto Integrador V</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="egg.html">ABHOI</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navb">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="grupo.html">Grupo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sobre.html">Sobre</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-success my-2 my-sm-0" type="button" data-toggle="modal" data-target="#myModalEntrar">Entrar</button>
-          </form>
-        </div>
-      </nav>
-<br>
+<?= $this->layout('_layout') ?>
 
 <!-- The Modal Login-->
 <div class="modal fade" id="myModalEntrar">
@@ -185,6 +149,4 @@
     </div>
     <br>
   </div>
-</body>
-</html>
 <!--2/4 - Agora copie o código inteiro para o bloco de notas do primeiro 0 até o último 1-->

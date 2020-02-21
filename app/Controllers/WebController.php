@@ -54,7 +54,7 @@ class WebController
     */
     public function group()
     {
-        echo $this->template->render('group');
+        echo $this->template->render('grupo');
     }
 
     /*

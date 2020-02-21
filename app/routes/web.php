@@ -9,11 +9,12 @@ $router = new Router(URL_BASE);
 
 $router->group(null);
 $router->namespace("App\Controllers");
-$router->get("/", "WebController:index");
-$router->get("/sobre", "WebController:about");
+$router->get("/", "WebController:index", "web.index");
+$router->get("/grupo", "WebController:group", "web.group");
+$router->get("/sobre", "WebController:about", "web.about");
 
 $router->group("error");
-$router->get("/{errcode}", "WebController:showError");
+$router->get("/{errcode}", "WebController:showError", "web.error");
 
 $router->dispatch();
 
