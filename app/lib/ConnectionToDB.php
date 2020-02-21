@@ -43,6 +43,7 @@ abstract class ConnectionToDB
     */
     public static function getConnection()
     {
+        self::makeConnection();
         return self::$connectionData;
     }
 }
