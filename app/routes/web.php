@@ -12,6 +12,7 @@ $router->namespace("App\Controllers");
 $router->get("/", "WebController:index", "web.index");
 $router->get("/grupo", "WebController:group", "web.group");
 $router->get("/sobre", "WebController:about", "web.about");
+$router->get("/egg", "WebController:egg", "web.egg");
 
 $router->group("error");
 $router->get("/{errcode}", "WebController:showError", "web.error");
