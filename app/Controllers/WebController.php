@@ -65,6 +65,16 @@ class WebController
     */
     public function showError($data)
     {
-        var_dump($data);
+        echo $this->template->render('erro', ['errcode' => $data['errcode']]);
+    }
+
+    /*
+    * Method for return egg view
+    *
+    * @return void
+    */
+    public function egg()
+    {
+        echo $this->template->render('egg');
     }
 }
