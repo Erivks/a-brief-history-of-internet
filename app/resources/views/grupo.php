@@ -11,7 +11,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Erick Santos</h4>
                     <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="https://github.com/Erivks" class="btn btn-primary" target="_blank">See Profile</a>
+                    <a href="https://github.com/Erivks" class="btn btn-dark" target="_blank">Perfil no Github</a>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Fernando Neves</h4>
                     <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="https://github.com/nandonevess" class="btn btn-primary" target="_blank">See Profile</a>
+                    <a href="https://github.com/nandonevess" class="btn btn-dark" target="_blank">Perfil no Github</a>
                 </div>
             </div>
         </div>
@@ -33,7 +33,7 @@
                 <div class="card-body">
                     <h4 class="card-title">Jadson Moreira</h4>
                     <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    <a href="https://github.com/LupusTriskell" class="btn btn-primary" target="_blank">See Profile</a>
+                    <a href="https://github.com/LupusTriskell" class="btn btn-dark" target="_blank">Perfil no Github</a>
                 </div>
             </div>
         </div>
