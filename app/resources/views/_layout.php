@@ -12,7 +12,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="egg.html">ABHOI</a>
+        <a class="navbar-brand" href="<?= url('egg') ?>">ABHOI</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
           <span class="navbar-toggler-icon"></span>
         </button>
