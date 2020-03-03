@@ -7,7 +7,9 @@ define('DATABASE_DATA', [
     'PORT' => '3306',
     'DB_NAME' => 'crud',
     'USER' => 'root',
-    'PASSWORD' => ''
+    'PASSWORD' => '',
+    'DRIVER' => 'mysql',
+    'CHARSET' => 'utf-8'
 ]);
 
 # Function for make and return an uri
@@ -19,4 +21,11 @@ function url($param = null)
     } else {
         return URL_BASE . "/";
     }   
+}
+
+# Function to verify the current uri
+function isCurrentUri($argv)
+{
+    $anchor = "/". $argv ."/";
+    return $anchor == $_SERVER['REQUEST_URI'];
 }
